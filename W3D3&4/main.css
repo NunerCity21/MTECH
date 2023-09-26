@@ -1,3 +1,4 @@
+/* MENU + First Image */
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -72,4 +73,148 @@ body {
     width: 96%;
     left: 50px;
     display: inline-block;
+}
+
+/* 2-4 IMAGES: */
+
+.second-image {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 450px;
+    max-width: 100%;
+    background-position: 0px -120px;
+    position: relative;
+    display: flex;
+}
+
+.second-image .img {
+    width: 40%;
+    padding-right: 7.5%;
+}
+
+.second-image .img img {
+    /* max-height: 110%; */
+    width: 100%;
+    position: relative;
+}
+
+.second-image .text {
+    width: 60%;
+}
+
+.second-image .text h1 {
+    text-align: left;
+    margin: 0px;
+    vertical-align: middle;
+    color: white;
+    font-size: 50px;
+    padding-top: 150px;
+    padding-bottom: 10px;
+}
+
+.second-image .text p {
+    text-align: left;
+    margin: 0px;
+    vertical-align: middle;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    padding-bottom: 150px;
+    padding: 10px 10px 150px 0px;
+}
+
+.third-image {
+    background-color: rgb(13, 13, 13);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 425px;
+    max-width: 100%;
+    background-position: 0px -120px;
+    position: relative;
+    display: flex;
+}
+
+.third-image .img {
+    width: 40%;
+    padding-left: 7.5%;
+}
+
+.third-image .img img {
+    /* max-height: 110%; */
+    width: 100%;
+    position: relative;
+}
+
+.third-image .text {
+    width: 60%;
+    padding-left: 7.5%;
+}
+
+.third-image .text h1 {
+    text-align: left;
+    margin: 0px;
+    vertical-align: middle;
+    color: white;
+    font-size: 50px;
+    padding-top: 125px;
+    padding-bottom: 10px;
+}
+
+.third-image .text p {
+    text-align: left;
+    margin: 0px;
+    vertical-align: middle;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    padding-bottom: 150px;
+    padding: 0px 0px 150px 0px;
+}
+
+.fourth-image {
+    background-color: rgb(25, 25, 25);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 450px;
+    max-width: 100%;
+    background-position: 0px -120px;
+    position: relative;
+    display: flex;
+}
+
+.fourth-image .img {
+    width: 40%;
+    padding-right: 7.5%;
+}
+
+.fourth-image .img img {
+    /* max-height: 110%; */
+    width: 100%;
+    position: relative;
+}
+
+.fourth-image .text {
+    width: 60%;
+}
+
+.fourth-image .text h1 {
+    text-align: left;
+    margin: 0px;
+    vertical-align: middle;
+    color: white;
+    font-size: 50px;
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+
+.fourth-image .text p {
+    text-align: left;
+    margin: 0px;
+    vertical-align: middle;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    padding-bottom: 150px;
+    padding: 10px 10px 130px 0px;
 }

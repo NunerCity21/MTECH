@@ -1,0 +1,31 @@
+#gridContainer {
+    width: 80vh;
+    height: 80vh;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font-size: 0;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 85px;
+    background-color: #EEEEEE;
+}
+
+.box {
+    display: inline-block;
+    width: calc(23% - 10px);
+    padding-bottom: calc(23% - 10px);
+    background: #333333;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.switch {
+    background: #999999;
+}

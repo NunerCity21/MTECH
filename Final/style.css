@@ -1,0 +1,189 @@
+body {
+    background-color: #F6F6F6;
+    margin: 0;
+    font-weight: 200;
+}
+
+#originalPost {
+    background-color: #FFFFFF;
+    width: 95%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#createPost {
+    background-color: #FFFFFF;
+    width: 95%;
+    height: 75px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#posts {
+    background-color: #EEEEEE;
+    width: 95%;
+    height: calc(100% - 175px); 
+    margin: 0 auto;
+    overflow-y: auto;
+    position: absolute;
+    top: 100px;
+    left: 2.5%;
+}
+
+.post {
+    background-color: #F6F6F6;
+    width: 95%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.postContent {
+    display: inline-block;
+}
+
+.postContent p {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.postContent h1 {
+    padding-left: 20px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.postButtons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    color: #ACD6E4;
+}
+
+.editButton,
+.deleteButton {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.deleteButton {
+    padding-right: 10px;
+}
+
+.editButton,
+.deleteButton:hover {
+    cursor: pointer;
+}
+
+#originalPost p {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+#originalPost h1 {
+    padding-left: 20px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+#createPost {
+        display: flex;
+        align-items: center;
+    }
+
+    #displayName {
+        margin-left: 2.5%;
+        width: 11%;
+        height: 25px;
+        border-radius: 5px;
+        border: solid 2px #EEEEEE;
+        font-size: 17px;
+    }
+
+    #comment {
+        margin-left: 1%;
+        width: 74.5%;
+        height: 25px;
+        border-radius: 5px;
+        border: solid 2px #EEEEEE;
+        font-size: 17px;
+    }
+
+    #submit {
+        color: #ACD6E4;
+        font-size: 23px;
+        margin-left: 1.5%;
+    }
+
+    #submit:hover {
+        cursor: pointer;
+    }
+    
+
+.editingText {
+    width: fit-content;
+    display: flex;
+    padding-left: 100px;
+}
+
+.post.editing {
+    height: 150px;
+}
+
+#editText {
+    flex-grow: 1;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 2px #EEEEEE;
+    font-size: 17px;
+    width: 93vh;
+}
+
+#editControls {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+#submitEdit {
+    color: #ACD6E4;
+    font-size: 23px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin: 0;
+    padding-top: 0px;
+}
+
+.profilePhoto {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.profilePhoto img {
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+.postText {
+    display: inline-block;
+    vertical-align: top;
+}
